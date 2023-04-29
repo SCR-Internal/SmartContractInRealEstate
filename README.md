@@ -15,11 +15,9 @@ Trong thị trường bất động sản, giao dịch mua bán bất động s�
 
 Thị trường bất động sản Việt Nam hiện tại đang phải đối mặt với nhiều thách thức, trong đó bao gồm:
 
--     Tính minh bạch: thị trường bất động sản Việt Nam vẫn chưa đạt được mức độ minh bạch cao, dẫn đến việc các giao dịch bất động sản vẫn có nhiều rủi ro và tranh chấp.
-
--     Thời gian và chi phí: quá trình giao dịch bất động sản tại Việt Nam vẫn khá phức tạp và mất nhiều thời gian, đồng thời còn tốn kém chi phí.
-
--     Pháp lý: hệ thống pháp luật liên quan đến bất động sản ở Việt Nam còn nhiều hạn chế, đặc biệt là trong việc bảo vệ quyền sở hữu bất động sản.
+- Tính minh bạch: thị trường bất động sản Việt Nam vẫn chưa đạt được mức độ minh bạch cao, dẫn đến việc các giao dịch bất động sản vẫn có nhiều rủi ro và tranh chấp.
+- Thời gian và chi phí: quá trình giao dịch bất động sản tại Việt Nam vẫn khá phức tạp và mất nhiều thời gian, đồng thời còn tốn kém chi phí.
+- Pháp lý: hệ thống pháp luật liên quan đến bất động sản ở Việt Nam còn nhiều hạn chế, đặc biệt là trong việc bảo vệ quyền sở hữu bất động sản.
 
 Các quy trình giao dịch truyền thống thường yêu cầu sự can thiệp của nhiều bên liên quan, đặc biệt là các cơ quan chính phủ, các công ty bảo hiểm và các công ty tài chính. Điều này dẫn đến việc mất thời gian, tốn kém và rủi ro về bảo mật thông tin.
 
