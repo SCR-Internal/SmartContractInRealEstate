@@ -1,35 +1,31 @@
-import Eueno from "@eueno/lib-node"
-import fs from "fs"
+import Eueno from '@eueno/lib-node';
+import fs from 'fs';
 
 const UserController = {
-  async index(req, res) {
-    // const eueno = new Eueno({
-    //   endpoint: "https://v2-developers.eueno.io/",
-    // })
-    console.log(req.body)
-    res.send(req.body)
+  async index(req,res) {
+    const eueno = new Eueno({
+      endpoint: 'https://v2-developers.eueno.io',
+    })
     const file = Buffer.from(JSON.stringify(req.body))
-    const data = await Eueno.upload(
+    console.log(file)
+    const data = await eueno.upload(
       file,
       {
-        projectKey: "0x7df91d78639d1948186f98cdc3b7b0a2c69e2adb",
+        projectKey: 'fcc3360c37807a00aa8149bec8d9699e2a4fe4a3961d68a25ed30ed2cc045bac',
         key: {
-          walletPublicKey: "",
+          walletPublicKey: '04f9d8fe1dc0426460a72a4e43466d510728207c2c7229c7ff1a13adaacdc71da68e67311118d65433d4a3f91eaee776c5e25c85fd1c2762d62aaf7cad4330abda',
+          fileEncryptionKey: 'CL3NeH1wiAI4RtiUD4mYlN03O8dEy3EQsbIoyeXRDRI'
         },
       },
       {
         projectId: 240,
-        filename: "data.json",
+        filename: 'data.json',
         contentLength: file.length,
-        contentType: "application/json",
-        method: "ENCRYPT",
+        contentType: 'application/json',
+        method: 'ENCRYPT',
         keepPath: false,
       },
-    )
-    res = await Eueno.createProject({
-      walletPrivateKey: "orai1n6xqpvch0fex6rd00mdpuwldhkn3p63pjyvx74",
-      projectName: "SCRInternal1105",
-    })
-  },
+    );
+  }
 }
 export default UserController

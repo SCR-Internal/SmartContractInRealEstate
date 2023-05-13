@@ -9,12 +9,13 @@
     "debug": "node app.js --inspect"
   },
   "dependencies": {
-    "@eueno/lib-node": "^0.0.11",
+    "@eueno/lib-node": "^0.0.8",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "nodemon": "^2.0.22",
+    "secp256k1": "^5.0.0",
     "yarn": "^1.22.19"
   }
 }

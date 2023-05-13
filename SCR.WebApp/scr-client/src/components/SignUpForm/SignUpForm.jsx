@@ -27,7 +27,7 @@ function SignUpForm() {
             "password": password
         }
         try{
-            const res = await axios.post("http://localhost:8080/add_user", formData)
+            const res = await axios.post("http://localhost:3001/add_user", formData)
             console.log(res.data)
         }
         catch (e){
