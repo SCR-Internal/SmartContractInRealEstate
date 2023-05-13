@@ -23,7 +23,12 @@ Các quy trình giao dịch truyền thống thường yêu cầu sự can thi�
 
 ### Thiết kế Giải pháp
 
-<img src=""/>
+<img
+  src="images\diagram.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
 Mô tả SCR:
 
 1. Smart contract: Đây là trung tâm của quy trình giao dịch, được thiết kế một cách chính xác để đáp ứng các yêu cầu của các bên liên quan. Hợp đồng thông minh này chứa thông tin về các điều khoản và điều kiện của giao dịch, các bên liên quan, thông tin về bất động sản và các thông tin khác cần thiết.
