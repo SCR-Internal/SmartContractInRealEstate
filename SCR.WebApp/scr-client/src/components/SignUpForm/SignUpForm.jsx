@@ -1,16 +1,19 @@
 import {React, useState, useEffect} from 'react';
 import style from './SignUpForm.module.css'
 import axios from 'axios';
+import { useNavigate } from "react-router-dom";
+
+
+
 
 function SignUpForm() {
-    const [submitForm, setSubmitForm] = useState({})
+    const navigate = useNavigate();
     const [cccd, setCCCD] = useState("")
     const [name, setName] = useState("")
     const [dob, setDob] = useState("")
     const [address, setAddress] = useState("")
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
-    const [data, setData] = useState("")
 
 
     
@@ -29,6 +32,7 @@ function SignUpForm() {
         try{
             const res = await axios.post("http://localhost:3001/add_user", formData)
             console.log(res.data)
+            navigate("/success")
         }
         catch (e){
             console.log(e)
@@ -101,12 +105,6 @@ function SignUpForm() {
                 <label htmlFor='password' className={`${style.label} font-bold mt-8    `}>Password (*)</label>
                 <input className={`${style.input}`} type="password" id='password' placeholder='Nhập mật khẩu' value={password} onChange={handleChangePassword}/>
             </div>
-
-            {/* Confirm password
-            <div className={`${style.inputContainer} w-full my-4`}>
-                <label className={`${style.label} font-bold mt-8    `}>Xác nhận mật khẩu (*)</label>
-                <input className={`${style.input}`} type="password" placeholder='Nhập lại mật khẩu' />
-            </div> */}
 
             <div className={`flex items-center justify-center`}>
                 <button className={`${style.button} w-1/3 my-8 bg-violet-950`}>Đăng ký</button>

@@ -11,6 +11,8 @@ import {
 import Home from '../../pages/Home/Home';
 import SignIn from '../../pages/SignIn/SignIn';
 import SignUp from '../../pages/SignUp/SignUp';
+import AddContract from '../../pages/AddContract/AddContract';
+import SuccessPage from '../../pages/SuccessPage/SuccessPage';
 
 Header.propTypes = {
     
@@ -41,6 +43,9 @@ function Header(props) {
                 <Route exact path='/' element={< Home />}></Route>
                  <Route exact path='/signin' element={< SignIn />}></Route>
                  <Route exact path='/signup' element={< SignUp />}></Route>
+                 <Route exact path='/add_contract' element={< AddContract />}></Route>
+                 <Route exact path='/success' element={<SuccessPage />}></Route>
+                
         </Routes>
         </Router>
     );
