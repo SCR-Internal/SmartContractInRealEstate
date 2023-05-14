@@ -1,0 +1,13 @@
+{
+  "serenity": {
+    "counter": {
+      "code_id": 1320,
+      "addresses": {
+        "default": "aura16yd5r0dn7y7njw7x205mwjhadvvu35264zfs3zp4cvgmeskmv0hqqhstqy"
+      },
+      "proposal": {
+        "store_code": null
+      }
+    }
+  }
+}
