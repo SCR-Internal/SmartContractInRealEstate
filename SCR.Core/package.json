@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@cosmjs/cosmwasm": "^0.25.6"
+  }
+}

@@ -1,0 +1,11 @@
+.container {
+    background-color: #F5F5F5   ;
+    height: 100vh;
+}
+.homeImage {
+    background-image: url("../../../public/bds.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    margin-top: 90px;
+}
