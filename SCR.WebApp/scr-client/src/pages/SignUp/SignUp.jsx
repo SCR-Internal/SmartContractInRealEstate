@@ -10,7 +10,7 @@ function SignUp() {
             <h1 className={`text-4xl font-bold text-center pt-8`}>Đăng ký</h1>
             <SignUpForm />
             
-        </div>
+            </div>
         </div>
     );
 }
